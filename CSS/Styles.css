@@ -22,30 +22,27 @@ body {
 #menucontainer {
     width: 100%;
     background-color: #0000CC;
-    height: 5%;
+    height: 7%;
 }
 
 .button {
     width: 25%;
     height: 100%;
     background-color: #021568;
-    color: #FFFFFF;
     float: left;
     border-top-right-radius: 9px;
     border-top-left-radius: 9px;
+    
 }
 
 a:link .button {
-    text-align: center;
-    color: #892376;
+
 }
 
 a:visited .button {
-    background-color: #021568;
 }
 
 a:hover .button{
-    background-color: #021568;
 }
 
 a:focus .button {
@@ -54,13 +51,10 @@ a:focus .button {
 }
 
 a:active .button {
-    background-color: #021568;
-    color: #000000;
 }
 
 #current {
     background-color: #FFFFFF;
-    color: #000000;
 }
 
 /*
@@ -96,6 +90,12 @@ a:active .button {
  *  Paragrahps
  */
 
+.linktext {
+    font-family: sans-serif;
+    color: #f409d9;
+    text-align: center;
+}
+ 
 .headliner {
     font-family: cursive;
     font-size: 26px;
